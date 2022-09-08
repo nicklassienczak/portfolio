@@ -3,3 +3,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}

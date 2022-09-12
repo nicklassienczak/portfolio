@@ -2,14 +2,41 @@ body {
     background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
     background-size: cover;
     background-attachment: fixed;
+    padding: 4em;
+}
+
+main {
+    gap: 3em;
+}
+
+.pic {
+    display: flex;
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 #header_nav {
     display: flex;
-    justify-content: flex-end;
-    align-items: baseline;
+    justify-content: center;
+    align-items: stretch;
+    place-content: space-evenly;
+    flex-direction: column;
 }
+
+header {
+     href= "https://linkedin.com" > < img src = "nsk.jpg" width = "140" height = "150" < / a >
+ }
 
 h2 {
     color: crimson;
+    font-family: "Courier New";
+
+}
+
+h1 {
+    font-family: "Courier New";
+    font-size: 3em;
+    display: flex;
+    place-content: center;
 }
